@@ -1,0 +1,8 @@
+x=(input('digite um caracter:'))
+print('Qual é o tipo : {}{}{}'.format('\033[4;31;42m',type(x),'\033[m'))
+print('O valor é um numero: {}{}{} '.format('\033[1;35;36m',x.isnumeric(),'\033[m'))
+print('É uma alfabetico: {}{}{}'.format('\033[41;32;7m',x.isalpha(),'\033[m'))
+print('É alphanumerico: {}{}{}'.format('\033[36;4;45m',x.isalnum(),'\033[m'))
+print('É maiusculo: {}{}{}'.format('\033[37;0;41m',x.isupper(),'\033[m'))
+print('É minusculo: {}{}{}'.format('\033[33;7;45m',x.islower(),'\033[m'))
+print('É capitalizado: {}{}{}'.format('\033[31;1;46m',x.istitle(),'\033[m'))
