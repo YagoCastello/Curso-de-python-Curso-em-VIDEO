@@ -1,0 +1,6 @@
+x=str(input('{}Digite o seu nome completo:{}'.format('\033[1;32;44m','\033[m'))).strip()
+z=x.split()
+print('{}Seja bem vindo, muito prazer em te conhecer!{}'.format("\033[4;33;45m",'\033[m'))
+print('{} Seu primeiro nome é {}'.format('\033[1;31;43m','\033[m'),z[0])
+#print("Seu ultimo nome é {} ".format(z[len(z)-1]))
+print("{}Seu ultimo nome é {} {}".format('\033[4;31;45m','\033[m',z[-1]))
