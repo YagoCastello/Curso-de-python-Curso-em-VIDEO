@@ -1,4 +1,4 @@
-x=(input('digite um caracter:'))
+x = (input('digite um caracter:'))
 print('Qual é o tipo : {}{}{}'.format('\033[4;31;42m',type(x),'\033[m'))
 print('O valor é um numero: {}{}{} '.format('\033[1;35;36m',x.isnumeric(),'\033[m'))
 print('É uma alfabetico: {}{}{}'.format('\033[41;32;7m',x.isalpha(),'\033[m'))
