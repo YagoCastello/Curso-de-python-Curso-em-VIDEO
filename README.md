@@ -290,9 +290,9 @@ D) Uma lista de pessoas com idade acima da média)
 Ex: 
 escreva('Olá, Mundo!')
 Saída:
-~~~~~~~~~
+---
  Olá, Mundo!
-~~~~~~~~~)
+---
 
 98 - Função de Contador ( Faça um programa que tenha uma função chamada contador(), que receba três parâmetros: início, fim e passo. Seu programa tem que realizar três contagens através da função criada:
 
