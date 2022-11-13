@@ -39,7 +39,7 @@
 
 📍 Interrompendo repetições while
 
-🌐 Mundo 2:
+🌐 Mundo 3:
 
 📍 Listas
 
